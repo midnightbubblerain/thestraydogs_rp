@@ -6,16 +6,12 @@ body {
 
     color: azure;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
 
     .card {
         background: rgba(0, 0, 0, 0.5);
         padding: 20px;
         margin: 20px;
         border-radius: 20px;
-
-        width: 90%;
-        max-width: 400px;
     }
 
       .card4 {
@@ -24,8 +20,7 @@ body {
         margin: 20px;
         border-radius: 20px;
 
-         width: 90%;
-        max-width: 400px;
+        width: fit-content;
         text-align: center;
     }
      .card2 {
@@ -34,8 +29,7 @@ body {
         margin: 2px;
         border-radius: 40px;
 
-         width: 90%;
-        max-width: 400px;
+        width: 400px;
         text-align: center;
     }
 
@@ -45,42 +39,9 @@ body {
         margin: 2px;
         border-radius: 30px;
 
-         width: 90%;
-        max-width: 400px;
+        width: fit-content;
       
     }
-
-    @media (max-width: 768px) {
-
-        .card,
-        .card2,
-        .card3,
-        .card4 {
-        
-            width: 90%;
-            margin:15px auto;
-            padding:15px;
-
-        }
-   
-
-    h1{
-        font-size: 26px;
-    }
-
-    h2{
-        font-size: 22px;
-    }
-
-    p{
-        font-size: 15px;
-
-    }
-.kartu{
-    padding:15px;
-}
- }
-
 
     .rules-text {
         text-align: justify;
@@ -88,14 +49,6 @@ body {
     }
 }
 
- @media (max-width: 768px){
-        body {
-            background-image: url(bg2.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
-        }
-    }
 
 .rules summary {
     background: rgba(0, 0, 0, 0.5);
