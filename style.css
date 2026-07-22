@@ -119,7 +119,7 @@ h1, h2, h3, {
 }
 
 @media screen and (max-width:600px) {
-    .card5 { width : calc( 100%-40px);
+    .card5 { width : 20%;
         padding: 15px;
         margin: 20px auto;
     }
