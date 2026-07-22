@@ -91,6 +91,8 @@ body {
         overflow-x: hidden;
     }
 
+.keep-together {
+    white-space:nowrap;}
 
 @media screen and (orientation: portrait)
 {
