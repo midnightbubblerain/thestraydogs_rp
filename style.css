@@ -92,7 +92,9 @@ body {
     }
 
 .keep-together {
-    white-space:nowrap;}
+    white-space:nowrap;
+    font-size: clamp(12px, 4vw, 24px);
+}
 
 h1, h2, h3, {
     white-space:nowrap;}
