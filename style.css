@@ -56,7 +56,7 @@ body {
     }
 
 
-@media (orientation: potrait)
+@media (orientation: portrait)
 {
     body {
         background-image: url(bg2.png) !important;
