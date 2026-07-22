@@ -10,7 +10,7 @@ body {
         .card {
         background: rgba(0, 0, 0, 0.5);
         padding: 20px;
-        margin: 20px;
+        margin: 20px auto;
         border-radius: 20px;
 
         width: fit-content;
@@ -20,7 +20,7 @@ body {
       .card4 {
         background: rgba(0, 0, 0, 0.5);
         padding: 25px;
-        margin: 20px;
+        margin: 20px auto;
         border-radius: 20px;
 
         width: fit-content;
@@ -31,7 +31,7 @@ body {
      .card2 {
         background: rgba(0, 0, 0, 0.5);
         padding: 10px;
-        margin: 2px;
+        margin: 2px auto;
         border-radius: 40px;
 
         width: fit-content;
@@ -42,7 +42,7 @@ body {
     .card3 {
         background: rgba(208, 168, 253, 0.7);
         padding: 20px;
-        margin: 2px;
+        margin: 2px auto;
         border-radius: 30px;
 
         width: fit-content;
@@ -53,6 +53,8 @@ body {
     .rules-text {
         text-align: justify;
         line-height: 1.6;
+
+        overflow-x: hidden;
     }
 
 
