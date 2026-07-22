@@ -5,7 +5,9 @@ body {
     background-attachment: fixed;
 
     color: azure;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ overflow-x: hidden;}
 
 
     .card5 {
@@ -66,8 +68,6 @@ body {
     .rules-text {
         text-align: justify;
         line-height: 1.6;
-
-        overflow-x: hidden;
     }
 
 
