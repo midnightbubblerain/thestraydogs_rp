@@ -18,7 +18,7 @@ body {
         border-radius: 20px;
 
         width: 90%;
-        max-width: 800px;
+        max-width: 100%;
             box-sizing: border-box;
 
         text-align: left;
@@ -31,9 +31,9 @@ body {
         border-radius: 20px;
 
         
-width: 90%;
-        max-width: 800px;
-            box-sizing: border-box;
+        width: 90%;
+        max-width: 70%;
+        box-sizing: border-box;
 
         text-align: center;
     }
@@ -45,7 +45,7 @@ width: 90%;
         border-radius: 40px;
 
         width: 90%;
-        max-width: 800px;
+        max-width: 60%;
             box-sizing: border-box;
         text-align: center;
     }
@@ -64,15 +64,25 @@ width: 90%;
 
     .card5 {
         background: rgba(208, 168, 253, 0.7);
-        padding: 20px;
-        margin: 8px ;
+        padding: 20px ;
+        margin: 2px ;
         border-radius: 30px;
 
-        width: 90%;
-        max-width: 800px;
+       width: 20%;
+        max-width: 90%;
             box-sizing: border-box;
       
     }
+
+    .cardreg {
+        background: rgba(208, 168, 253, 0.7);
+        padding: 20px ;
+        margin: 2px ;
+        border-radius: 30px;
+
+       width: fit-content;
+        max-width: 90%;
+            box-sizing: border-box;}
 
     .rules-text {
         text-align: justify;
@@ -127,10 +137,11 @@ width: 90%;
     background: rgba(223, 182, 223, 0.5);
     padding:20px;
     border-radius: 15px;
-    margin:20px 0;
+    margin:20px auto;
 
     width: fit-content;
     max-width: 90%;
+    align-content: center;
 
     transition: 0.2s ease;
 }
