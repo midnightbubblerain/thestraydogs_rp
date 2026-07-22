@@ -17,16 +17,16 @@ body {
     
     @media (max-width:768px){
         .card{
-            width:90%}
+            width:90%}]
 
          @media (max-width:768px){
         .card4 {
             width:90%
-            padding: 90%}
+            padding: 90%}}
 
               @media (max-width:768px){
         .card3{
-            width:90%}
+            width:90%}}
 
       .card4 {
         background: rgba(0, 0, 0, 0.5);
