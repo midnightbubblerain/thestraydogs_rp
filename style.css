@@ -58,8 +58,8 @@ body {
         margin: 2px auto;
         border-radius: 30px;
 
-        width: fit-content;
-        max-width: 90%;
+        width: 90%;
+        max-width: 800px;
       
     }
 
