@@ -56,7 +56,7 @@ body {
     }
 
 
-@media (max-width:600px)
+@media (orientation: potrait)
 {
     body {
         background-image: url(bg2.png) !important;
