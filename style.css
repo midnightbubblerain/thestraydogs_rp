@@ -21,7 +21,8 @@ body {
 
          @media (max-width:768px){
         .card4 {
-            width:90%}
+            width:90%
+            padding: 90%}
 
               @media (max-width:768px){
         .card3{
