@@ -103,6 +103,15 @@ body {
     }
 }
 
+@media screen and (max-width:600px) {
+    .card,.card2,.card3,.card4,.card5,.cardreg.,.kartu {
+        width :90%;
+        padding: 15px;
+        margin: 15px auto;
+    }
+}
+
+
 
 .rules summary {
     background: rgba(0, 0, 0, 0.5);
