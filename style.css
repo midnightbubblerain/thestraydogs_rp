@@ -111,14 +111,19 @@ h1, h2, h3, {
 }
 
 @media screen and (max-width:600px) {
-    .card,.card2,.card3,.card4,.card5,.cardreg,.kartu {
+    .card,.card2,.card3,.card4,.cardreg,.kartu {
         width : calc( 100%-40px);
         padding: 15px;
         margin: 20px auto;
     }
 }
 
-
+@media screen and (max-width:600px) {
+    .card5 { width : calc( 100%-40px);
+        padding: 15px;
+        margin: 20px auto;
+    }
+}
 
 
 
